@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+html,body,div,span,p,a,del,em,img,ol,ul,li,fieldset,form,label{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:top;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+html,body{line-height:1; font-size: 20px; color: #000;
+	min-height:100%;font-family:'Amatic SC', cursive;}
+	
+body{background-image:url(../images/backgrnd_repeat.png);background-repeat: repeat-y;
+	top: 0%; 
+}
+
+h1{line-height:0.5; font-size: 38px;
+	}
+
+h2{line-height:0.5; font-size: 32px;
+	}
+h3{line-height:0.5; font-size: 26px;
+	}
+	
+h4{line-height:0.1; font-size: 64px;
+	
+}
+h5{line-height:0.1; font-size: 44px;
+	
+}
+
+#progress{height:1%;background:#fff;bottom:0;z-index:200;}
+
+#intro{z-index:99;width:800px;height: 502px;left:50%;top:0px;margin-left:-35%;border: 2px solid #5367ba;
+	padding:0;background-image:url(../images/EA_banner.png);  text-align:center;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0;-webkit-border-radius:1em;-moz-border-radius:1em;border-radius:1em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+-moz-box-shadow: 0px 5px 5px #3a3a3a;
+-webkit-box-shadow: 0px 5px 5px #3a3a3a;
+box-shadow: 0px 5px 5px #3a3a3a;}
+
+/* Stanza 1 ************************************/
+
+#lensFlare{z-index:59;width:1074px;height:950px;background-image:url(img/lensFlare.png);background-repeat: no-repeat;}
+
+#s1_sun{z-index:52;width:800px;height:1085px;background-image:url(img/s1_p1_sun.png);background-repeat: no-repeat;}
+
+#s1_p1{z-index:56;width:735px;height:1247px;background-image:url(../images/.png);background-repeat: no-repeat;}
+
+
+#s1_p2{z-index:54;width:400px;height:623px;background-image:url(img/s1_p2_deadBird.png);background-repeat: no-repeat;}
+
+#s1_p3{z-index:55;width:725px;height:439px;background-image:url(img/s1_p3_him.png);background-repeat: no-repeat; }
+#s1_p3_bg{z-index:50;width:725px;height:439px;background-image:url(img/s1_p3_him_bg.png);background-repeat: no-repeat; }
+
+
+
+/* Stanza 2 ************************************/
+
+#clouds_1{z-index:49;width:100%;height:100%;background-image:url(img/clouds_set1.png); 
+}
+#clouds_2{z-index:48;width:100%;height:100%;background-image:url(img/clouds_set2.png);
+}
+
+#s2_p1{z-index:61;width:800px;height:585px;background-image:url(img/s2_p1_run.png);background-repeat: no-repeat;}
+#s2_p2_cliff{z-index:62;width:1240px;height:2115px;background-image:url(img/s2_p2_cliff.png);background-repeat: no-repeat;}
+#s2_p2_jump{z-index:63;width:1240px;height:2115px;background-image:url(img/s2_p2_jump.png);background-repeat: no-repeat;}
+#s2_p3_bg{z-index:64;width:765px;height:255px;background-image:url(img/s2_p3_bg.png);overflow: hidden;
+	background-repeat: no-repeat; border-bottom-color: #262626; border-width: 1px;  border-style: solid;
+	-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+	-moz-box-shadow: 0px 5px 5px #555;
+	-webkit-box-shadow: 0px 5px 5px #555;
+	box-shadow: 0px 5px 5px #555;}	
+#s2_p3_rage{z-index:65;width:800px;height:488px;background-image:url(img/s2_p3_rage.png);background-repeat: no-repeat; 
+}
+
+/* Stanza 3 ************************************/
+
+#s3_p1{z-index:68;width:800px;height:724px;background-image:url(img/s3_p1_soar.png);background-repeat: no-repeat;}
+#s3_p2_sun{z-index:45;width:1408px;height:2864px;background-image:url(img/s3_p2_sun.png);background-repeat: no-repeat;}
+#s3_p3_fly{z-index:66;width:860px;height:600px;background-image:url(img/s3_p3_fly.png);background-repeat: no-repeat;}
+
+#s3_p2_eye{z-index:67;width:400px;height:270px;background-image:url(img/s3_p2_eye.png);background-repeat: no-repeat;}
+
+/* Stanza 4 ************************************/
+
+#sparks_1{z-index:49;width:100%;height:100%;background-image:url(img/sparks1.png); 
+}
+#sparks_2{z-index:85;width:100%;height:100%;background-image:url(img/sparks2.png);
+}
+
+#s4_p1_dive{z-index:68;width:627px;height:726px;background-image:url(img/s4_p1_dive.png);background-repeat: no-repeat;}
+#s4_p1_dive_blur{z-index:69;width:627px;height:726px;background-image:url(img/s4_p1_dive_blur.png);background-repeat: no-repeat;}
+#s4_p2_cut{z-index:70;width:820px;height:1118px;background-image:url(img/s4_p2_cut.png);background-repeat: no-repeat;}
+#s4_p3_flame{z-index:71;width:400px;height:229px;background-image:url(img/s4_p3_flame.png);background-repeat: no-repeat;}
+#background2{z-index:3;width:100%;height:100%;background-image:url(img/backgrnd_repeat2.png);background-repeat: repeat-y;}
+#lights1{z-index:5;width:100%;height:100%;background-image:url(img/lights1.png);background-repeat: repeat-y;}
+#lights2{z-index:91;width:100%;height:100%;background-image:url(img/lights2.png);background-repeat: repeat-y;}
+
+
+
+/* Stanza 5 ************************************/
+
+#s5_p1_freefall{z-index:70;width:810px;height:993px;background-image:url(img/s5_p1_freefall.png);background-repeat: no-repeat;}
+
+#s5_p2_feathers{z-index:71;width:574px;height:315px;background-image:url(img/s5_p2_feathers.png);background-repeat: no-repeat;}
+
+#s5_p2_bloodFeather{z-index:72;width:364px;height:266px;background-image:url(img/s5_p2_bloodFeather.png);background-repeat: no-repeat;}
+
+
+/* Stanza 6 ************************************/
+
+#s6_p1_burn{z-index:73;width:800px;height:949px;background-image:url(img/s6_p1_burn.png);background-repeat: no-repeat;}
+
+#s6_p1_knife{z-index:74;width:387px;height:213px;background-image:url(img/s6_p1_knife.png);background-repeat: no-repeat;}
+
+#s6_p2_alone{z-index:75;width:1000px;height:1364px;background-image:url(img/s6_p2_alone.png);background-repeat: no-repeat;}
+
+
+
+
+#because{z-index:60;width:100%;height:989px;text-align:center;background-position: center;
+	background-image:url(img/becauseWhat_text.png);background-repeat: no-repeat;}
+	
+	
+#becauseSplat{z-index:57;width:100%;height:989px;text-align:center;background-position: center;
+		background-image:url(img/becauseSplat.png);background-repeat: no-repeat;}
+
+
+#transform{width:70%;left:50%;top:20%;margin-left:-35%;text-align:center;font-size:150%;-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;-o-transform-origin:50% 50%;transform-origin:50% 50%;}
+
+#textBox{width:100%;height:100%;padding-top:0%;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+#easing_wrapper{width:100%;height:100%;}
+#easing{top:10%;width:50%;z-index:101;}
+
+
